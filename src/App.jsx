@@ -11,12 +11,12 @@ function App() {
     imagemUrl:'https://rickandmortyapi.com/api/character/avatar/4.jpeg'
   }
 
-  const itens=[item1,item2]
+  const itens=[item1,item2,item1,item2,item1,item2,item1,item2,item1,item2]
   return (
     <>
-    <Card item={item1} />
-    <Card item={item2}/>
-   
+     {itens.map(function (item){
+      return <Card item={item}/>
+     })}
     </>
   )
 }
