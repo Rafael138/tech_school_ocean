@@ -7,11 +7,14 @@ function App() {
     imagemUrl:'https://rickandmortyapi.com/api/character/avatar/3.jpeg'
   }
   const item2={
-    nome:'teste',
+    nome:'Paulo',
     imagemUrl:'https://rickandmortyapi.com/api/character/avatar/4.jpeg'
   }
-
-  const itens=[item1,item2,item1,item2,item1,item2,item1,item2,item1,item2]
+  const item3={
+    nome:'Antonildo',
+    imagemUrl:'https://rickandmortyapi.com/api/character/avatar/6.jpeg'
+  }
+  const itens=[item1,item2,item3,item2,item1,item2,item1,item2,item1,item2]
   return (
     <>
      {itens.map(function (item){
